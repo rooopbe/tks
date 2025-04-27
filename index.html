@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人简历 - 鲁东大学软件工程</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    .resume-container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 30px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #222;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    .section-header i {
+      margin-right: 10px;
+      transition: all 0.3s ease;
+      color: #4a90e2;
+    }
+    .section-header:hover {
+      transform: translateX(10px);
+      color: #4a90e2;
+    }
+    .section-header:hover i {
+      transform: rotate(20deg);
+      color: #007bff;
+    }
+    .basic-info, .skill, .hobby, .project, .evaluation {
+      padding: 20px;
+      background: #fafafa;
+      border-radius: 8px;
+    }
+    .info-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .info-item {
+      flex: 1 1 250px;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+    .info-item i {
+      margin-right: 8px;
+      color: #555;
+    }
+    .photo {
+      width: 120px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #ddd;
+      transition: all 0.6s ease;
+    }
+	
+	.photo:hover {
+	  transform: scale(1.1) rotate(5deg);
+	  border-color: #4a90e2; 
+	  box-shadow: 0 8px 16px rgba(74, 144, 226, 0.5);
+	}
+    .photo-wrapper {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill-tag {
+      background: #e0f7fa;
+      color: #00796b;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      border: 1px solid #b2ebf2;
+      transition: all 0.3s;
+    }
+    .skill-tag:hover {
+      background: #b2ebf2;
+      color: #004d40;
+      transform: scale(1.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="resume-container">
+  <div class="section">
+    <div class="section-header"><i class="fas fa-user"></i>基本信息</div>
+    <div class="basic-info">
+      <div class="info-grid">
+        <div class="info-item"><i class="fas fa-signature"></i>姓名：武启航</div>
+        <div class="info-item"><i class="fas fa-venus-mars"></i>性别：女</div>
+        <div class="info-item"><i class="fas fa-birthday-cake"></i>年龄：19岁</div>
+        <div class="info-item"><i class="fas fa-home"></i>籍贯：河北石家庄</div>
+        <div class="info-item"><i class="fas fa-phone"></i>联系电话：13655361524</div>
+        <div class="info-item"><i class="fas fa-envelope"></i>电子邮箱：1693803712@qq.com</div>
+        <div class="info-item"><i class="fas fa-graduation-cap"></i>学历：本科</div>
+        <div class="info-item"><i class="fas fa-heartbeat"></i>健康状况：良好</div>
+        <div class="info-item"><i class="fas fa-heart"></i>婚姻状况：未婚</div>
+        <div class="info-item"><i class="fas fa-bullseye"></i>求职意向：游戏开发</div>
+        <div class="info-item"><i class="fas fa-book"></i>专业：软件工程</div>
+        <div class="info-item"><i class="fas fa-university"></i>毕业院校：鲁东大学</div>
+      </div>
+      <div class="photo-wrapper">
+        <img src="img/39978c8cafa865880b7420ee485c7898.jpg" alt="个人照片" class="photo">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><i class="fas fa-certificate"></i>技能证书</div>
+    <div class="skill">
+      <div class="skill-tags">
+        <div class="skill-tag">C语言</div>
+        <div class="skill-tag">C++</div>
+        <div class="skill-tag">HTML5 & CSS3</div>
+        <div class="skill-tag">JavaScript</div>
+        <div class="skill-tag">MySQL</div>
+        <div class="skill-tag">Python</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><i class="fas fa-star"></i>个人特长与爱好</div>
+    <div class="hobby">
+      <ul>
+        <li><i class="fas fa-basketball-ball"></i> 喜欢篮球、游泳等体育运动，保持健康体魄</li>
+        <li><i class="fas fa-laptop-code"></i> 对新技术充满热情，持续学习前沿开发技术</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><i class="fas fa-project-diagram"></i>项目经历</div>
+    <div class="project">
+      <ul>
+        <li><i class="fas fa-gamepad"></i> 项目：独立完成小项目设计与开发</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><i class="fas fa-edit"></i>自我评价</div>
+    <div class="evaluation">
+      <p>作为鲁东大学软件工程专业的学生，我有扎实的基础知识与实践能力。</p>
+      <p>性格稳重，责任心强，拥有良好的团队精神，能够在项目中扮演关键技术角色。</p>
+      <p>热爱开发，善于自我驱动成长，致力于通过技术创造价值并实现个人理想。</p>
+      <p>希望加入贵公司，与优秀的团队一同前行，迎接未来的风与光。</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+
